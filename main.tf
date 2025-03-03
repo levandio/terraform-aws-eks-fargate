@@ -34,6 +34,7 @@ module "eks" {
   cluster_role_arn   = module.iam.cluster_role_arn
   fargate_pod_role_arn = module.iam.fargate_pod_role_arn
   private_subnet_ids = module.vpc.private_subnet_ids
+
 }
 
 # Optionally output from root if you want
