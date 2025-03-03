@@ -1,5 +1,6 @@
 # terraform-aws-eks-fargate
 📁 terraform-eks-fargate/
+
 ├── 📁 modules/
 │   ├── 📁 eks/                   # EKS Cluster & Fargate Profiles
 │   │   ├── main.tf
